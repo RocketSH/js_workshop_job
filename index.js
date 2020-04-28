@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
   );
 
   if ($navbarBurgers.length > 0) {
-    console.log("$navbarBurgers.length");
+    // console.log("$navbarBurgers.length");
     $navbarBurgers.forEach(el => {
       el.addEventListener("click", () => {
         const target = el.dataset.target;
